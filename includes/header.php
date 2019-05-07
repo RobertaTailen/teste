@@ -17,7 +17,7 @@
     <div class="Nav">
         <li><a href="index.php">Home</a></li>
         <li><a href="cadastro.php">Cadastro de clientes</a></li>
-        <li><a href="delete.php">Pesquisar clientes</a></li>
+        <li><a href="selecao.php">Visualizar clientes</a></li>
         <li><a href="atualizacao.php">Sobre</a></li>
     </div>
 

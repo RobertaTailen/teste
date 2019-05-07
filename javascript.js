@@ -2,8 +2,6 @@
 function cadastrar(form){
 
 	//dados a enviar, vai buscar os valores dos campos que queremos enviar para a BD
-
-	
     var dadosajax = {
         'campo1' : $("#Nome").val(),
         'campo2' : $("#Sexo").val(),
