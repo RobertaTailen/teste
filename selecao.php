@@ -27,7 +27,7 @@
              
 
 			<a href="<?php echo "visualizar.php?id={$Fetch['Id']}"; ?>"><img src="img/visualizar.png" alt="Visualizar"></a>
-             <a href="atualizacao.php"><img src="img/editar.png" alt="Editar"></a>
+             <a class="Deletar" href="<?php echo "atualizar.php?id={$Fetch['Id']}"; ?>"><img src="img/editar.png" alt="Deletar"></a>
              <a class="Deletar" href="<?php echo "Controllers/ControllerDeletar.php?id={$Fetch['Id']}"; ?>"><img src="img/deletar.png" alt="Deletar"></a>
          </td>
      </tr>

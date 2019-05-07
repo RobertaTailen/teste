@@ -50,4 +50,11 @@ class ClassCrud extends ClassConexao{
       return $this->Crud;
     }
 
+    #Atualização no banco de dados
+    public function updateDB($Tabela , $Set , $Condicao , $Parametros)
+    {
+        $this->preparedStatements("update {$Tabela} set {$Set} where {$Condicao}",$Parametros);
+        return $this->Crud;
+    }
+
 }
