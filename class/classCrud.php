@@ -44,4 +44,10 @@ class ClassCrud extends ClassConexao{
         return $this->Crud;
     }
 
+    #Deletar dados no DB
+    public function deleteDB($Tabela , $Condicao , $Parametros){
+      $this->preparedStatements("delete from {$Tabela} where {$Condicao}" , $Parametros);
+      return $this->Crud;
+    }
+
 }
